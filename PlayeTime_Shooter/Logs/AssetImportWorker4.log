@@ -15,7 +15,7 @@ E:/Work/GitLab/playtime_shooter/PlayeTime_Shooter
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-50725
+57622
 Successfully changed project path to: E:/Work/GitLab/playtime_shooter/PlayeTime_Shooter
 E:/Work/GitLab/playtime_shooter/PlayeTime_Shooter
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ E:/Work/GitLab/playtime_shooter/PlayeTime_Shooter
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17332] Host "[IP] 192.168.1.183 [Port] 0 [Flags] 2 [Guid] 1555422975 [EditorId] 1555422975 [Version] 1048832 [Id] WindowsEditor(7,R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24968] Host "[IP] 192.168.1.183 [Port] 0 [Flags] 2 [Guid] 3942477407 [EditorId] 3942477407 [Version] 1048832 [Id] WindowsEditor(7,R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17332] Host "[IP] 192.168.1.183 [Port] 0 [Flags] 2 [Guid] 1555422975 [EditorId] 1555422975 [Version] 1048832 [Id] WindowsEditor(7,R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24968] Host "[IP] 192.168.1.183 [Port] 0 [Flags] 2 [Guid] 3942477407 [EditorId] 3942477407 [Version] 1048832 [Id] WindowsEditor(7,R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 8.53 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 7.29 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -71,47 +71,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005395 seconds.
-- Loaded All Assemblies, in  0.325 seconds
+Registered in 0.005581 seconds.
+- Loaded All Assemblies, in  0.327 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 209 ms
+Android Extension - Scanning For ADB Devices 160 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.511 seconds
-Domain Reload Profiling: 835ms
-	BeginReloadAssembly (92ms)
+- Finished resetting the current domain, in  0.477 seconds
+Domain Reload Profiling: 804ms
+	BeginReloadAssembly (91ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
+	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (140ms)
-		LoadAssemblies (91ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (90ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (138ms)
-			TypeCache.Refresh (136ms)
-				TypeCache.ScanAssembly (123ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (122ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (511ms)
+	FinalizeReload (477ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (457ms)
+		SetupLoadedEditorAssemblies (421ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (315ms)
+			InitializePlatformSupportModulesInManaged (264ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (96ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			ProcessInitializeOnLoadAttributes (101ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,8 +119,8 @@ Domain Reload Profiling: 835ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.637 seconds
-Refreshing native plugins compatible for Editor in 3.83 ms, found 7 plugins.
+- Loaded All Assemblies, in  0.630 seconds
+Refreshing native plugins compatible for Editor in 3.82 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -128,48 +128,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.724 seconds
-Domain Reload Profiling: 1359ms
-	BeginReloadAssembly (127ms)
+- Finished resetting the current domain, in  0.767 seconds
+Domain Reload Profiling: 1396ms
+	BeginReloadAssembly (144ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (33ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (37ms)
 	RebuildNativeTypeToScriptingClass (11ms)
 	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (439ms)
-		LoadAssemblies (243ms)
+	LoadAllAssembliesAndSetupDomain (411ms)
+		LoadAssemblies (251ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (267ms)
-			TypeCache.Refresh (216ms)
-				TypeCache.ScanAssembly (195ms)
-			ScanForSourceGeneratedMonoScriptInfo (28ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (725ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (192ms)
+				TypeCache.ScanAssembly (175ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (768ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (517ms)
+		SetupLoadedEditorAssemblies (550ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
+			InitializePlatformSupportModulesInManaged (25ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (363ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.45 ms, found 7 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.75 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5132 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 82 unused Assets / (1.8 MB). Loaded Objects now: 5580.
-Memory consumption went from 383.3 MB to 381.5 MB.
-Total: 4.896300 ms (FindLiveObjects: 0.425400 ms CreateObjectMapping: 0.400900 ms MarkObjects: 3.006700 ms  DeleteObjects: 1.062000 ms)
+Unloading 5145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (1.8 MB). Loaded Objects now: 5595.
+Memory consumption went from 389.2 MB to 387.4 MB.
+Total: 4.756400 ms (FindLiveObjects: 0.405400 ms CreateObjectMapping: 0.392300 ms MarkObjects: 2.619200 ms  DeleteObjects: 1.338200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,54 +187,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 16042.283094 seconds.
-  path: Assets/ThirdParty/TopDownEngine/Demos/Loft3D/Models/Characters/Suit/LoftSuit@CrouchedWalking.fbx
-  artifactKey: Guid(bcf5fe72f63b58f4997778181003d811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/TopDownEngine/Demos/Loft3D/Models/Characters/Suit/LoftSuit@CrouchedWalking.fbx using Guid(bcf5fe72f63b58f4997778181003d811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f7fea87c1c33771707a7cd075735e1') in 0.239713 seconds
+  Time since last request: 33421.823160 seconds.
+  path: Assets/_src/Materials/New Folder/M_Black.mat
+  artifactKey: Guid(9d68ee01b1849eb4e94bcf267b3e8224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_src/Materials/New Folder/M_Black.mat using Guid(9d68ee01b1849eb4e94bcf267b3e8224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebb7310c4d3e544c3e4bf303ccaeac5') in 0.093716 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 97
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/ThirdParty/TopDownEngine/Demos/Loft3D/Models/Characters/Suit/LoftSuit@Running.fbx
-  artifactKey: Guid(b523a1d94ceeb434eba732b4d9829da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/TopDownEngine/Demos/Loft3D/Models/Characters/Suit/LoftSuit@Running.fbx using Guid(b523a1d94ceeb434eba732b4d9829da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7d5eafbe39ce4645c9566dd28d3e77') in 0.076703 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/_src/Materials/New Folder/M_Metal.mat
+  artifactKey: Guid(57cbf949838b50a41a584f06d01fb381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_src/Materials/New Folder/M_Metal.mat using Guid(57cbf949838b50a41a584f06d01fb381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689bdad4c4a72a2dec7ba2a8186b123e') in 0.088398 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 97
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/ThirdParty/TopDownEngine/Demos/Loft3D/Models/Characters/Suit/LoftSuit@StandingMeleeAttackHorizontal.fbx
-  artifactKey: Guid(9926c0599f6591042ab2046eeb7f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/TopDownEngine/Demos/Loft3D/Models/Characters/Suit/LoftSuit@StandingMeleeAttackHorizontal.fbx using Guid(9926c0599f6591042ab2046eeb7f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea21317c35a5a30eed5f99753cb0f9e') in 0.067064 seconds
+  Time since last request: 17.304358 seconds.
+  path: Assets/Game/Materials/Colors/M_White.mat
+  artifactKey: Guid(7c280f3cd09af304395ffe6b6b9e81ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Materials/Colors/M_White.mat using Guid(7c280f3cd09af304395ffe6b6b9e81ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cecb833401f23d49928106e2965edff') in 0.005308 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 97
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/ThirdParty/TopDownEngine/Demos/Loft3D/Models/Characters/Suit/LoftSuit@StandingIdle2.fbx
-  artifactKey: Guid(1f6a9fbf200d8684e83ba2a8237e83b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/TopDownEngine/Demos/Loft3D/Models/Characters/Suit/LoftSuit@StandingIdle2.fbx using Guid(1f6a9fbf200d8684e83ba2a8237e83b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4eace0bdfdaec322c749ddaf3de707') in 0.005591 seconds
+  Time since last request: 438.222338 seconds.
+  path: Assets/Game/Materials/Colors/M_BLue.mat
+  artifactKey: Guid(92a37d31ab3b57843916f6c878e3f595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Materials/Colors/M_BLue.mat using Guid(92a37d31ab3b57843916f6c878e3f595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f65afdee7120e94f12bb5b4594b804') in 0.007179 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 73
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/ThirdParty/TopDownEngine/Demos/Loft3D/Models/Characters/Suit/LoftSuit@StandingMeleeAttack360High.fbx
-  artifactKey: Guid(faec8f6c77464e6489243d87a44dc5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/TopDownEngine/Demos/Loft3D/Models/Characters/Suit/LoftSuit@StandingMeleeAttack360High.fbx using Guid(faec8f6c77464e6489243d87a44dc5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3beff17cafd2d392f24a7988ccde3b') in 0.074472 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 97
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ThirdParty/TopDownEngine/Demos/Loft3D/Models/Characters/Suit/LoftSuit@LowCrawl.fbx
-  artifactKey: Guid(f41dcc85d7437bb4e9d8979d52192466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/TopDownEngine/Demos/Loft3D/Models/Characters/Suit/LoftSuit@LowCrawl.fbx using Guid(f41dcc85d7437bb4e9d8979d52192466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6594de694556032973e8f4f4d978617') in 0.005467 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 73
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 1

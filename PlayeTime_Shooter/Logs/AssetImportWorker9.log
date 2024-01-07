@@ -1,0 +1,2879 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.12f1 (4fe6e059c7ef) revision 5236448'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ru' Physical Memory: 32680 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+E:/Work/GitLab/playtime_shooter/PlayeTime_Shooter
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+50725
+Successfully changed project path to: E:/Work/GitLab/playtime_shooter/PlayeTime_Shooter
+E:/Work/GitLab/playtime_shooter/PlayeTime_Shooter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17996] Host "[IP] 192.168.1.183 [Port] 0 [Flags] 2 [Guid] 1971257273 [EditorId] 1971257273 [Version] 1048832 [Id] WindowsEditor(7,R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17996] Host "[IP] 192.168.1.183 [Port] 0 [Flags] 2 [Guid] 1971257273 [EditorId] 1971257273 [Version] 1048832 [Id] WindowsEditor(7,R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 7.87 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Work/GitLab/playtime_shooter/PlayeTime_Shooter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Vendor:   NVIDIA
+    VRAM:     12143 MB
+    Driver:   27.21.14.6172
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005312 seconds.
+- Loaded All Assemblies, in  0.320 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 184 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.490 seconds
+Domain Reload Profiling: 809ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (87ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (137ms)
+				TypeCache.ScanAssembly (124ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (490ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (437ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (285ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (107ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.632 seconds
+Refreshing native plugins compatible for Editor in 3.53 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.649 seconds
+Domain Reload Profiling: 1279ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (426ms)
+		LoadAssemblies (249ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (184ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (649ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (468ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (343ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.50 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (1.8 MB). Loaded Objects now: 5595.
+Memory consumption went from 389.2 MB to 387.4 MB.
+Total: 4.239000 ms (FindLiveObjects: 0.377300 ms CreateObjectMapping: 0.376800 ms MarkObjects: 2.623200 ms  DeleteObjects: 0.860400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Import Request.
+  Time since last request: 36319.132242 seconds.
+  path: Assets/Game/Models/PP_LVL2.fbx
+  artifactKey: Guid(ded919c7f893c3a4097c0569bdc2f4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/PP_LVL2.fbx using Guid(ded919c7f893c3a4097c0569bdc2f4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d3d58c664c4ddbfbb699f40af36958') in 0.132076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.515 seconds
+Refreshing native plugins compatible for Editor in 4.92 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.437 seconds
+Domain Reload Profiling: 1950ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (253ms)
+		LoadAssemblies (301ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1437ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (706ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (470ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (61ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.12 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5001 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5653.
+Memory consumption went from 356.0 MB to 354.3 MB.
+Total: 6.528700 ms (FindLiveObjects: 0.487800 ms CreateObjectMapping: 0.516600 ms MarkObjects: 3.884700 ms  DeleteObjects: 1.637400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.524 seconds
+Refreshing native plugins compatible for Editor in 5.29 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.262 seconds
+Domain Reload Profiling: 1783ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (248ms)
+		LoadAssemblies (293ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1262ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (705ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (535ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.90 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5668.
+Memory consumption went from 358.2 MB to 356.5 MB.
+Total: 6.930500 ms (FindLiveObjects: 0.537900 ms CreateObjectMapping: 0.583300 ms MarkObjects: 4.431800 ms  DeleteObjects: 1.375700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.514 seconds
+Refreshing native plugins compatible for Editor in 3.77 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.375 seconds
+Domain Reload Profiling: 1889ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (248ms)
+		LoadAssemblies (292ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1377ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (777ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (592ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 6.50 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5683.
+Memory consumption went from 360.1 MB to 358.4 MB.
+Total: 8.761900 ms (FindLiveObjects: 0.801500 ms CreateObjectMapping: 0.746200 ms MarkObjects: 5.901800 ms  DeleteObjects: 1.309500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.544 seconds
+Refreshing native plugins compatible for Editor in 5.45 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.145 seconds
+Domain Reload Profiling: 1686ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (301ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (40ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1146ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (572ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (419ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 7.92 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5698.
+Memory consumption went from 362.1 MB to 360.4 MB.
+Total: 8.542300 ms (FindLiveObjects: 0.836800 ms CreateObjectMapping: 1.406000 ms MarkObjects: 4.822100 ms  DeleteObjects: 1.476000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.600 seconds
+Refreshing native plugins compatible for Editor in 5.30 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.217 seconds
+Domain Reload Profiling: 1813ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (295ms)
+		LoadAssemblies (327ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (56ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (44ms)
+	FinalizeReload (1217ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (622ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (447ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 7.37 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5713.
+Memory consumption went from 364.0 MB to 362.3 MB.
+Total: 11.251500 ms (FindLiveObjects: 0.778300 ms CreateObjectMapping: 1.831000 ms MarkObjects: 6.360800 ms  DeleteObjects: 2.279400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.547 seconds
+Refreshing native plugins compatible for Editor in 4.73 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.202 seconds
+Domain Reload Profiling: 1746ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (261ms)
+		LoadAssemblies (310ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (42ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1202ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (589ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (417ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 6.10 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5728.
+Memory consumption went from 366.0 MB to 364.2 MB.
+Total: 6.528200 ms (FindLiveObjects: 0.590600 ms CreateObjectMapping: 0.532400 ms MarkObjects: 4.028800 ms  DeleteObjects: 1.375100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.515 seconds
+Refreshing native plugins compatible for Editor in 5.24 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.191 seconds
+Domain Reload Profiling: 1704ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (236ms)
+		LoadAssemblies (288ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (41ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (1191ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (595ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (419ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 4.84 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5743.
+Memory consumption went from 367.9 MB to 366.2 MB.
+Total: 6.497900 ms (FindLiveObjects: 0.508800 ms CreateObjectMapping: 0.603000 ms MarkObjects: 3.935800 ms  DeleteObjects: 1.449300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.623 seconds
+Refreshing native plugins compatible for Editor in 5.39 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.423 seconds
+Domain Reload Profiling: 2044ms
+	BeginReloadAssembly (210ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (305ms)
+		LoadAssemblies (367ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (47ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (1424ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (730ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (533ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 6.55 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5758.
+Memory consumption went from 369.8 MB to 368.1 MB.
+Total: 8.808600 ms (FindLiveObjects: 0.674300 ms CreateObjectMapping: 0.635500 ms MarkObjects: 4.313800 ms  DeleteObjects: 3.183500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.505 seconds
+Refreshing native plugins compatible for Editor in 4.28 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.252 seconds
+Domain Reload Profiling: 1755ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (235ms)
+		LoadAssemblies (286ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (40ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (1253ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (658ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (485ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 6.33 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5773.
+Memory consumption went from 371.8 MB to 370.0 MB.
+Total: 7.631100 ms (FindLiveObjects: 0.535200 ms CreateObjectMapping: 0.553600 ms MarkObjects: 4.931100 ms  DeleteObjects: 1.609800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.511 seconds
+Refreshing native plugins compatible for Editor in 4.16 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.128 seconds
+Domain Reload Profiling: 1637ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (232ms)
+		LoadAssemblies (279ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (1129ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (522ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (360ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 7.13 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5788.
+Memory consumption went from 373.7 MB to 372.0 MB.
+Total: 7.013100 ms (FindLiveObjects: 0.707300 ms CreateObjectMapping: 0.816200 ms MarkObjects: 3.789300 ms  DeleteObjects: 1.699000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.474 seconds
+Refreshing native plugins compatible for Editor in 4.67 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.092 seconds
+Domain Reload Profiling: 1562ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (226ms)
+		LoadAssemblies (262ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (40ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (1093ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (551ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (400ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.32 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5803.
+Memory consumption went from 375.8 MB to 374.0 MB.
+Total: 5.634900 ms (FindLiveObjects: 0.559500 ms CreateObjectMapping: 0.562300 ms MarkObjects: 3.054100 ms  DeleteObjects: 1.457500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.448 seconds
+Refreshing native plugins compatible for Editor in 3.56 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.059 seconds
+Domain Reload Profiling: 1504ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (209ms)
+		LoadAssemblies (249ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (1059ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (551ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (405ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 4.90 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5818.
+Memory consumption went from 377.7 MB to 376.0 MB.
+Total: 7.471800 ms (FindLiveObjects: 0.585500 ms CreateObjectMapping: 0.747700 ms MarkObjects: 4.495500 ms  DeleteObjects: 1.641600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.494 seconds
+Refreshing native plugins compatible for Editor in 5.38 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.986 seconds
+Domain Reload Profiling: 1478ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (226ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (987ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (453ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.94 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5833.
+Memory consumption went from 379.6 MB to 377.9 MB.
+Total: 6.126200 ms (FindLiveObjects: 0.540100 ms CreateObjectMapping: 0.743900 ms MarkObjects: 3.804000 ms  DeleteObjects: 1.036700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.466 seconds
+Refreshing native plugins compatible for Editor in 6.52 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.016 seconds
+Domain Reload Profiling: 1480ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (259ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1017ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (474ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (317ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 4.19 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5848.
+Memory consumption went from 381.6 MB to 379.8 MB.
+Total: 7.418200 ms (FindLiveObjects: 0.533000 ms CreateObjectMapping: 0.598000 ms MarkObjects: 5.039800 ms  DeleteObjects: 1.245800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.456 seconds
+Refreshing native plugins compatible for Editor in 5.54 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.058 seconds
+Domain Reload Profiling: 1512ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (219ms)
+		LoadAssemblies (258ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1059ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (511ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (369ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 3.86 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5863.
+Memory consumption went from 383.5 MB to 381.7 MB.
+Total: 5.419000 ms (FindLiveObjects: 0.462400 ms CreateObjectMapping: 0.413200 ms MarkObjects: 2.853400 ms  DeleteObjects: 1.688700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.465 seconds
+Refreshing native plugins compatible for Editor in 4.61 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.050 seconds
+Domain Reload Profiling: 1512ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (216ms)
+		LoadAssemblies (261ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (1051ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (487ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (338ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.38 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5878.
+Memory consumption went from 385.4 MB to 383.7 MB.
+Total: 5.919900 ms (FindLiveObjects: 0.511000 ms CreateObjectMapping: 0.577400 ms MarkObjects: 3.405900 ms  DeleteObjects: 1.424600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.495 seconds
+Refreshing native plugins compatible for Editor in 13.07 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.179 seconds
+Domain Reload Profiling: 1672ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (242ms)
+		LoadAssemblies (274ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (49ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (1179ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (530ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 6.03 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5893.
+Memory consumption went from 387.3 MB to 385.6 MB.
+Total: 5.064300 ms (FindLiveObjects: 0.538100 ms CreateObjectMapping: 0.570800 ms MarkObjects: 2.738600 ms  DeleteObjects: 1.215300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.508 seconds
+Refreshing native plugins compatible for Editor in 3.74 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.986 seconds
+Domain Reload Profiling: 1491ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (292ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (41ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (986ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (450ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (310ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.03 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5908.
+Memory consumption went from 389.3 MB to 387.5 MB.
+Total: 6.423800 ms (FindLiveObjects: 0.550600 ms CreateObjectMapping: 0.544600 ms MarkObjects: 3.831900 ms  DeleteObjects: 1.495600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.473 seconds
+Refreshing native plugins compatible for Editor in 4.56 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.040 seconds
+Domain Reload Profiling: 1511ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (262ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1041ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (493ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (347ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.30 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5923.
+Memory consumption went from 391.2 MB to 389.5 MB.
+Total: 5.332400 ms (FindLiveObjects: 0.623700 ms CreateObjectMapping: 0.579300 ms MarkObjects: 3.052100 ms  DeleteObjects: 1.076300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.572 seconds
+Refreshing native plugins compatible for Editor in 3.54 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.103 seconds
+Domain Reload Profiling: 1673ms
+	BeginReloadAssembly (206ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (269ms)
+		LoadAssemblies (335ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (42ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (1104ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (519ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (355ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.61 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5938.
+Memory consumption went from 393.1 MB to 391.4 MB.
+Total: 7.399100 ms (FindLiveObjects: 0.898200 ms CreateObjectMapping: 0.789800 ms MarkObjects: 4.035300 ms  DeleteObjects: 1.674200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Import Request.
+  Time since last request: 8316.819139 seconds.
+  path: Assets/Game/Resourses/Rifle_LVL1.asset
+  artifactKey: Guid(1e822f1a6c5f7104390a0acd1cc92b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Resourses/Rifle_LVL1.asset using Guid(1e822f1a6c5f7104390a0acd1cc92b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d306562238214b0036d0abaf8175a2e') in 0.512100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 168
+========================================================================
+Received Import Request.
+  Time since last request: 223.949095 seconds.
+  path: Assets/ThirdParty/AurynSky/Arcade Pack 01/Models/ChairShort.fbx
+  artifactKey: Guid(95430c01e1f804041a5fe06a8879650c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AurynSky/Arcade Pack 01/Models/ChairShort.fbx using Guid(95430c01e1f804041a5fe06a8879650c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702946cd136f25bcb73d4f32e7ce297e') in 0.205612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdParty/AurynSky/Arcade Pack 01/Models/TableTop.fbx
+  artifactKey: Guid(df9226708d866c74983fcc106a6fa385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AurynSky/Arcade Pack 01/Models/TableTop.fbx using Guid(df9226708d866c74983fcc106a6fa385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9720e0ee08013ce9c50639ca2173117') in 0.011114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ThirdParty/AurynSky/Arcade Pack 01/Models/ChairTallfbx.fbx
+  artifactKey: Guid(e2866703cb3ac774ea749461e60781b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AurynSky/Arcade Pack 01/Models/ChairTallfbx.fbx using Guid(e2866703cb3ac774ea749461e60781b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72048137c6bcfac2eb141331a919301e') in 0.027693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ThirdParty/AurynSky/Arcade Pack 01/Models/ControlButtonFbx.fbx
+  artifactKey: Guid(67fc7cc8eb18d07478486e47f680c96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AurynSky/Arcade Pack 01/Models/ControlButtonFbx.fbx using Guid(67fc7cc8eb18d07478486e47f680c96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8442c4cce3fb9d7bcf0113f8b07f90a1') in 0.013968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 31.290317 seconds.
+  path: Assets/ThirdParty/ToysPack/Models/Stove_01.fbx
+  artifactKey: Guid(469f2890342bf1649897b0bdadbb8f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Models/Stove_01.fbx using Guid(469f2890342bf1649897b0bdadbb8f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d53c02a1b873aa0e5ff08564d849713') in 0.309797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 1.184620 seconds.
+  path: Assets/ThirdParty/ToysPack/Models/ToyBlocks_01.fbx
+  artifactKey: Guid(f202298ccb5d7f145a673ac42878b49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Models/ToyBlocks_01.fbx using Guid(f202298ccb5d7f145a673ac42878b49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af32f295a009f75e4205f388dd6f9af') in 0.642616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 138
+========================================================================
+Received Import Request.
+  Time since last request: 10.756206 seconds.
+  path: Assets/ThirdParty/ToysPack/Models/WoodenTrain_01.fbx
+  artifactKey: Guid(dc6a99a587dea8c45b12db70757e08fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Models/WoodenTrain_01.fbx using Guid(dc6a99a587dea8c45b12db70757e08fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fe33edd2fd2f857409be9e2b759dbd') in 0.141910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 2814.805959 seconds.
+  path: Assets/ThirdParty/Epic Toon FX/Textures/aura_soft01.png
+  artifactKey: Guid(a3ba33a4ac48743449b608e6e6a07c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Epic Toon FX/Textures/aura_soft01.png using Guid(a3ba33a4ac48743449b608e6e6a07c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a0301bba787a5f5cb9952200a6dcab') in 0.206874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ThirdParty/Epic Toon FX/Textures/bubble_round2.png
+  artifactKey: Guid(f7a22d56eb4318549a93c932a100895f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Epic Toon FX/Textures/bubble_round2.png using Guid(f7a22d56eb4318549a93c932a100895f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90230c17eefd1ab7bd104656cb2861d6') in 0.083149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ThirdParty/Epic Toon FX/Textures/bubble_half_thick.png
+  artifactKey: Guid(9a369030ecb533f41b884af1c44d1b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Epic Toon FX/Textures/bubble_half_thick.png using Guid(9a369030ecb533f41b884af1c44d1b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae72de00ef1a90000e9754020ebff628') in 0.050560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ThirdParty/Epic Toon FX/Textures/bubble_soap.png
+  artifactKey: Guid(73d20bc2cf7876446a1747597c972e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Epic Toon FX/Textures/bubble_soap.png using Guid(73d20bc2cf7876446a1747597c972e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01dbfd0efe8190843a12ef646a9dba39') in 0.076704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/ThirdParty/Epic Toon FX/Textures/candle_soft2.png
+  artifactKey: Guid(842df994cbd81dd4cbaecf511216000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Epic Toon FX/Textures/candle_soft2.png using Guid(842df994cbd81dd4cbaecf511216000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194de322f229ebe4ff7a2e00f79228ac') in 0.047062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.871656 seconds.
+  path: Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Healing/HealNova.prefab
+  artifactKey: Guid(b88a52d0de3924c4db6011de30ecccd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Healing/HealNova.prefab using Guid(b88a52d0de3924c4db6011de30ecccd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c265fc785f956fd43bb070dac3f59b') in 0.091479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.005144 seconds.
+  path: Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Healing/HealOnceLoop.prefab
+  artifactKey: Guid(a4a1462c4d222c040ba20b5994e8a35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Healing/HealOnceLoop.prefab using Guid(a4a1462c4d222c040ba20b5994e8a35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a519654a665dccaca6da89313fd9b4bb') in 0.030017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 1925.244934 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Shovel_01.prefab
+  artifactKey: Guid(796a9cfbf4adab746846cf2060482563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Shovel_01.prefab using Guid(796a9cfbf4adab746846cf2060482563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2061feea0ad28519b3133e0b4e563e94') in 0.027491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Skateboard_01.prefab
+  artifactKey: Guid(1b914b20e80f81c4c87cf6294e0d9183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Skateboard_01.prefab using Guid(1b914b20e80f81c4c87cf6294e0d9183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efdbcfa29d7d8c8387f28a102a2989d') in 0.008575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Slide_01.prefab
+  artifactKey: Guid(08969be1fac40c344a3246465bf43109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Slide_01.prefab using Guid(08969be1fac40c344a3246465bf43109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051c9c6b4e6094ed65c268d36239666c') in 0.006498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.026272 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/SortingCube_01.prefab
+  artifactKey: Guid(20e97b1974cc7544c9f37c7bfdce1947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/SortingCube_01.prefab using Guid(20e97b1974cc7544c9f37c7bfdce1947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e26643ffe2dd5cd017ddbc2165934c') in 0.006325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.037812 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/SortingCube_01_Block_Star.prefab
+  artifactKey: Guid(530b5859e8b96c04b85f32333ee9cb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/SortingCube_01_Block_Star.prefab using Guid(530b5859e8b96c04b85f32333ee9cb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d71361212f88e76d22e106dfcb2828d') in 0.006029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.009867 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Stove_01.prefab
+  artifactKey: Guid(39beb81d8ab013345a9e0c22e951e0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Stove_01.prefab using Guid(39beb81d8ab013345a9e0c22e951e0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2263dec1fe52498d257d6ef54e0d71d8') in 0.037655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.047512 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Trampoline_01.prefab
+  artifactKey: Guid(4a384ebe561ad494d9f22bd7921e6491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Trampoline_01.prefab using Guid(4a384ebe561ad494d9f22bd7921e6491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe072e3b8c8217624147e1d62000799b') in 0.007389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.007932 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/VolleyballNet_01.prefab
+  artifactKey: Guid(eaefbc65ac207d643a3b861de2107ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/VolleyballNet_01.prefab using Guid(eaefbc65ac207d643a3b861de2107ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104fb527c63e9444e139d622022c6267') in 0.008672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.054379 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/WoodenTrain_01_Road_90d.prefab
+  artifactKey: Guid(a992d8f1f6b838b4a9cc96c5c0cb559a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/WoodenTrain_01_Road_90d.prefab using Guid(a992d8f1f6b838b4a9cc96c5c0cb559a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff183f2eca579c06ccd51ccc9b527474') in 0.008637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.798668 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/WoodenTrain_01_Wagon_01.prefab
+  artifactKey: Guid(da906da93b42ae74599e71ef31b185a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/WoodenTrain_01_Wagon_01.prefab using Guid(da906da93b42ae74599e71ef31b185a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7677c57776aee946ef6b1f0fab84ca6b') in 0.006477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.821434 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Sandcastle_01_Tower_02.prefab
+  artifactKey: Guid(8669e2b07a7cce946ab5c7925ae33b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Sandcastle_01_Tower_02.prefab using Guid(8669e2b07a7cce946ab5c7925ae33b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac89a3e22e696f7fa5a1c1ac6ccfb5a8') in 0.045251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.005977 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Shield_01.prefab
+  artifactKey: Guid(5434a96fe1c503c4ca1317fe2d3eef5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Shield_01.prefab using Guid(5434a96fe1c503c4ca1317fe2d3eef5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847ff765d9e05d7af3f0de42853fa21c') in 0.007893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.039542 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Piano_01.prefab
+  artifactKey: Guid(38029cced38e75142a3265abfc57248a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Piano_01.prefab using Guid(38029cced38e75142a3265abfc57248a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f6ca88f502fac295fe714e87f18858') in 0.040897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.009028 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Pogostick_01.prefab
+  artifactKey: Guid(665342da014a2eb469adc3b3bc756f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Pogostick_01.prefab using Guid(665342da014a2eb469adc3b3bc756f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c7c567c473a9e7519c477f0690eeb7') in 0.039035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.015997 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Rocket_01.prefab
+  artifactKey: Guid(0158ac3401d3d044287fde902f9263d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Rocket_01.prefab using Guid(0158ac3401d3d044287fde902f9263d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01b811431504dc05a8fa41f68709311') in 0.009526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.009791 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/RollerSkate_01.prefab
+  artifactKey: Guid(a6da586b85a1e1b4ca3be4bbd69c7ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/RollerSkate_01.prefab using Guid(a6da586b85a1e1b4ca3be4bbd69c7ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4f692b918ac3abff766610d636ff1c') in 0.032790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.006039 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/RugbyBall_01.prefab
+  artifactKey: Guid(088a9ce28c58df64ba003dbd7c124241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/RugbyBall_01.prefab using Guid(088a9ce28c58df64ba003dbd7c124241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1a8df50216198c0ccc9e9225ed0b44') in 0.009710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.058943 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/DumpTruck_01.prefab
+  artifactKey: Guid(b2d961e231e92434bac25a507bc1635a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/DumpTruck_01.prefab using Guid(b2d961e231e92434bac25a507bc1635a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808ec9d9fc02c9610c74b2b5e187b32b') in 0.037186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Fish_01.prefab
+  artifactKey: Guid(57827e15ed6e879498da2cd187d91bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Fish_01.prefab using Guid(57827e15ed6e879498da2cd187d91bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9399d76d93139018375a6c4208dd8ae8') in 0.007709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.004866 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Helicopter_01.prefab
+  artifactKey: Guid(f377722e22371234f8deb4559656d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Helicopter_01.prefab using Guid(f377722e22371234f8deb4559656d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f01302355dd543887718120c86866e') in 0.021797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.001325 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Hulahoop_01.prefab
+  artifactKey: Guid(d1acfb6f1503b724bb983f3d8cfd398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Hulahoop_01.prefab using Guid(d1acfb6f1503b724bb983f3d8cfd398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60ab6ebcd670ac65e860d586404cc2e') in 0.006365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.087437 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Doll_01.prefab
+  artifactKey: Guid(e0195c5fa47302643b5a58876f5f37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Doll_01.prefab using Guid(e0195c5fa47302643b5a58876f5f37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdda4c3ea582cbb293f85a88654e533') in 0.011178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.094060 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Car_01.prefab
+  artifactKey: Guid(03af875cbe0ae134f8876b09512b4124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Car_01.prefab using Guid(03af875cbe0ae134f8876b09512b4124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05629d5d260cb2eed7e43cdeadd26f3') in 0.526640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Car_03.prefab
+  artifactKey: Guid(a688cb10177f6d349adee62762caacbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Car_03.prefab using Guid(a688cb10177f6d349adee62762caacbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3131e733c0fbfa37a536a2c020a4eb83') in 0.089336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.027919 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Chess_01.prefab
+  artifactKey: Guid(9a83c3e84175a09479f3fbd6c4e8132e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Chess_01.prefab using Guid(9a83c3e84175a09479f3fbd6c4e8132e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8734eabcd29962eb6232be6253e9909') in 0.203097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 151
+========================================================================
+Received Import Request.
+  Time since last request: 0.007215 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Darts_01.prefab
+  artifactKey: Guid(c995e50dbb38e974cb42032d710f9b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Darts_01.prefab using Guid(c995e50dbb38e974cb42032d710f9b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb3fe8b9379ad4ae10fcc6023bf749c') in 0.008227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.097050 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Ball_02.prefab
+  artifactKey: Guid(f5e36a01e798b8345b96a40ed537bf62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Ball_02.prefab using Guid(f5e36a01e798b8345b96a40ed537bf62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b1b1463c26c5dd7ba64de25df1c96c') in 0.141193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Basketballhoop_01.prefab
+  artifactKey: Guid(d79d7fbe6da85314880c01deeda3b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Basketballhoop_01.prefab using Guid(d79d7fbe6da85314880c01deeda3b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240495753f38ece782a2bf1fff7ae610') in 0.087761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.002263 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Boat_02.prefab
+  artifactKey: Guid(6656024becf3ab74c9f5091f10fb291a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Boat_02.prefab using Guid(6656024becf3ab74c9f5091f10fb291a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b5b9018bdeaba08a586000096c8699') in 0.078243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Boomerang_01.prefab
+  artifactKey: Guid(3e43bfdec94035546848926b0f5b307a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Boomerang_01.prefab using Guid(3e43bfdec94035546848926b0f5b307a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f91916a9d8d65df7fc11300eef0df67') in 0.007688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Bucket_01.prefab
+  artifactKey: Guid(989ae16528f4523468e09b4fc315a4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Bucket_01.prefab using Guid(989ae16528f4523468e09b4fc315a4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46ed9e0f842cbf0593300b0604ff9dd') in 0.006444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.260422 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Blocks/Block_B.prefab
+  artifactKey: Guid(f05d44e07870ead4a831cf99067784af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Blocks/Block_B.prefab using Guid(f05d44e07870ead4a831cf99067784af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e3e1d72e3fbc2ff9d4d0628b8f21df') in 0.057057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Blocks/Block_E.prefab
+  artifactKey: Guid(6d3105d31b863ad4e9d0746348d37d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Blocks/Block_E.prefab using Guid(6d3105d31b863ad4e9d0746348d37d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384f33e6b0808c1e42511a7741709f1b') in 0.018661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Blocks/Block_G.prefab
+  artifactKey: Guid(f2621ea097247be419c7145f4d0420cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Blocks/Block_G.prefab using Guid(f2621ea097247be419c7145f4d0420cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51d19e2bbb33d6b9ba7eddc2d9612ee') in 0.021775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Blocks/Block_J.prefab
+  artifactKey: Guid(e0430fc7e21e77947857c182cec5e554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Blocks/Block_J.prefab using Guid(e0430fc7e21e77947857c182cec5e554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1a25037d28f0a1b83615f7f97d830c') in 0.109642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Blocks/Block_K.prefab
+  artifactKey: Guid(981cd1cfd57e57643bcff7cc3f0194bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Blocks/Block_K.prefab using Guid(981cd1cfd57e57643bcff7cc3f0194bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b4ed5c94ec131238dca8cce67155cc') in 0.094314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Blocks/Block_N.prefab
+  artifactKey: Guid(b1fe12acb1ec2ce4886a4f1de5b2c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Blocks/Block_N.prefab using Guid(b1fe12acb1ec2ce4886a4f1de5b2c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0805c22ef5197e69f1bbc560a5c6137f') in 0.046510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Blocks/Block_Q.prefab
+  artifactKey: Guid(8709e9bef02a81743b317eedf5b6f761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Blocks/Block_Q.prefab using Guid(8709e9bef02a81743b317eedf5b6f761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6abadf160f74f882215c4bc2dcb719') in 0.097738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Blocks/Block_M.prefab
+  artifactKey: Guid(1a75c3ce13eaff34cb2df303420c241e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Blocks/Block_M.prefab using Guid(1a75c3ce13eaff34cb2df303420c241e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0ee3793e6356125f7cd0d2155677e6') in 0.043181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Blocks/Block_T.prefab
+  artifactKey: Guid(9008dd120cfd5874e926c59467101d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Blocks/Block_T.prefab using Guid(9008dd120cfd5874e926c59467101d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ac551629b70321f757e6d9fae0d47d') in 0.043873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ThirdParty/ToysPack/Prefabs/Blocks/Block_R.prefab
+  artifactKey: Guid(622b9013a2dd87b469083118a3d7fc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ToysPack/Prefabs/Blocks/Block_R.prefab using Guid(622b9013a2dd87b469083118a3d7fc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6cec70a5e6e434fdbb432955ece9bd9') in 0.022285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.684 seconds
+Refreshing native plugins compatible for Editor in 5.56 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.365 seconds
+Domain Reload Profiling: 2045ms
+	BeginReloadAssembly (239ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (91ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (340ms)
+		LoadAssemblies (393ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (46ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (1365ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (643ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (462ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 4.60 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5001 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5957.
+Memory consumption went from 395.8 MB to 394.1 MB.
+Total: 6.898800 ms (FindLiveObjects: 0.614200 ms CreateObjectMapping: 1.010800 ms MarkObjects: 3.990100 ms  DeleteObjects: 1.276500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.459 seconds
+Refreshing native plugins compatible for Editor in 3.53 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.083 seconds
+Domain Reload Profiling: 1540ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (210ms)
+		LoadAssemblies (247ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (1084ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (540ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (374ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 7.06 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5972.
+Memory consumption went from 398.0 MB to 396.3 MB.
+Total: 5.565700 ms (FindLiveObjects: 0.484800 ms CreateObjectMapping: 0.477300 ms MarkObjects: 3.092000 ms  DeleteObjects: 1.510600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.428 seconds
+Refreshing native plugins compatible for Editor in 3.83 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.015 seconds
+Domain Reload Profiling: 1441ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (202ms)
+		LoadAssemblies (244ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (37ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1016ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (486ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (343ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 4.62 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 5987.
+Memory consumption went from 400.0 MB to 398.2 MB.
+Total: 6.242400 ms (FindLiveObjects: 0.568200 ms CreateObjectMapping: 0.527100 ms MarkObjects: 3.645300 ms  DeleteObjects: 1.500800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.431 seconds
+Refreshing native plugins compatible for Editor in 3.58 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.955 seconds
+Domain Reload Profiling: 1384ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (955ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (464ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (322ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 3.49 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 6002.
+Memory consumption went from 401.9 MB to 400.2 MB.
+Total: 5.923500 ms (FindLiveObjects: 0.599500 ms CreateObjectMapping: 0.678100 ms MarkObjects: 3.446100 ms  DeleteObjects: 1.198300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Import Request.
+  Time since last request: 2868.838264 seconds.
+  path: Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/TreasureVerticalGlowRays.prefab
+  artifactKey: Guid(a1f601f8073d04c4986963b2dee4bfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/TreasureVerticalGlowRays.prefab using Guid(a1f601f8073d04c4986963b2dee4bfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e894e773b77e9a41e6d9c2a2ad84028') in 0.119706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 1.904635 seconds.
+  path: Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/ChestAppear/ChestAppearPurple.prefab
+  artifactKey: Guid(5201335ef7c4efb4b8ee21ccc008d90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/ChestAppear/ChestAppearPurple.prefab using Guid(5201335ef7c4efb4b8ee21ccc008d90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5371f2e5cc8e0905fce1f3aacf6e69') in 0.112919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/ChestAppear/ChestAppearYellow.prefab
+  artifactKey: Guid(1e9dc57b9c268e84dbb8ede9289e1474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/ChestAppear/ChestAppearYellow.prefab using Guid(1e9dc57b9c268e84dbb8ede9289e1474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccb692e8f553aef977c058d6e38a6fb') in 0.048490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.749945 seconds.
+  path: Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/GlowOrb/GlowOrbGreen.prefab
+  artifactKey: Guid(87009d6220cf83e4d83a95436b7baadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/GlowOrb/GlowOrbGreen.prefab using Guid(87009d6220cf83e4d83a95436b7baadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb72ee53e26e055541d67a2d46ca03e') in 0.036843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 2.187526 seconds.
+  path: Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/ItemSkewedGlow/ItemSkewedGlowGreen.prefab
+  artifactKey: Guid(05658010f157dab4d9a46f51db791d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/ItemSkewedGlow/ItemSkewedGlowGreen.prefab using Guid(05658010f157dab4d9a46f51db791d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd17129912a1ea4d60a6e78501227e2c') in 0.019083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.028937 seconds.
+  path: Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/ItemSkewedGlow/ItemSkewedGlowRainbow.prefab
+  artifactKey: Guid(8cdb51e19d8cf4c4fb1439f4499432d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/ItemSkewedGlow/ItemSkewedGlowRainbow.prefab using Guid(8cdb51e19d8cf4c4fb1439f4499432d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e93d305bd0d58026ea98ff3b3f46fb') in 0.008253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.012070 seconds.
+  path: Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/ItemSkewedGlow/ItemSkewedGlowYellow.prefab
+  artifactKey: Guid(df9e9f9e0ab716847be4c7cc44fe5af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/ItemSkewedGlow/ItemSkewedGlowYellow.prefab using Guid(df9e9f9e0ab716847be4c7cc44fe5af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dde66a58ad3acd9d483d4e0ac8e9193') in 0.010037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 2.332241 seconds.
+  path: Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/ItemSparkle/ItemSparkleGreen.prefab
+  artifactKey: Guid(0bb1d6b9d39bcbf4785d00557d53e9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/ItemSparkle/ItemSparkleGreen.prefab using Guid(0bb1d6b9d39bcbf4785d00557d53e9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9553e8f7a49e22611d226394b12929d') in 0.035173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/ItemSparkle/ItemSparklePink.prefab
+  artifactKey: Guid(c5db43b1e2c605d42a53be0160e8cc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/ItemSparkle/ItemSparklePink.prefab using Guid(c5db43b1e2c605d42a53be0160e8cc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafd65c8f0b844f6bde8b45c34a08c1b') in 0.010133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.008859 seconds.
+  path: Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/ItemSparkle/ItemSparkleRainbow.prefab
+  artifactKey: Guid(eacea826f9985a14ab05a1665abfce71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/ItemSparkle/ItemSparkleRainbow.prefab using Guid(eacea826f9985a14ab05a1665abfce71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6154c6429f5515b5bb46fcdb0dd4837') in 0.010029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.008470 seconds.
+  path: Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/ItemSparkle/ItemSparkleYellow.prefab
+  artifactKey: Guid(460ec3e3d006c254b831a1a92d30ed3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Loot/ItemSparkle/ItemSparkleYellow.prefab using Guid(460ec3e3d006c254b831a1a92d30ed3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb9fbb2a4e8742148d580c2aeaa6064') in 0.013187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.409 seconds
+Refreshing native plugins compatible for Editor in 3.73 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.006 seconds
+Domain Reload Profiling: 1411ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (233ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1006ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (503ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (359ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 4.71 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5001 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 6017.
+Memory consumption went from 403.6 MB to 401.9 MB.
+Total: 5.434300 ms (FindLiveObjects: 0.608700 ms CreateObjectMapping: 0.543000 ms MarkObjects: 2.845300 ms  DeleteObjects: 1.436200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.449 seconds
+Refreshing native plugins compatible for Editor in 4.03 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.112 seconds
+Domain Reload Profiling: 1559ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (221ms)
+		LoadAssemblies (265ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1113ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (548ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (383ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 4.83 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.7 MB). Loaded Objects now: 6032.
+Memory consumption went from 405.8 MB to 404.1 MB.
+Total: 5.984200 ms (FindLiveObjects: 0.711700 ms CreateObjectMapping: 0.573900 ms MarkObjects: 3.071000 ms  DeleteObjects: 1.622600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ETFXLoopScript.cs: 4392199dbfd6d3b5bd95d917e63f7b7c -> d5bc634ada6d0fb61f6dc312af0d35d8
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: 74c758b096ccc015ecc0b543e025d32f -> e343bb3cdc2d115200128a669b71dda1
+  custom:scripting/monoscript/fileName/ETFXTarget.cs: ad09be64d07fe8ab15ea3df3041afe33 -> c04ff8e5450f1152d1f50a47046a7522
+  custom:scripting/monoscript/fileName/ETFXMouseOrbit.cs: 2c256cdcc1004b2d89ad6216ce6f48ce -> 654fedd2040686dffcba3ab26348e73a
+  custom:scripting/monoscript/fileName/PEButtonScript.cs: 1196c7824c32320b807ca3d248e82337 -> bf6c80445f44505babe53d9f3e6c71a8
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5f93baac467b5aad804964f6f5c855d3 -> 5e0812fb099c455198fae606e4820674
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ETFXSceneManager.cs: fd89b14cfaa86424da64a78d3cc928bd -> 9146f3552534435a5b54b9657a6eaacd
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/UICanvasManager.cs: 5aab136b4eea2569aa2aed1e7de128ee -> ad5d5df5b0e004a8bd01e6144db352c4
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: 8adc4a249aece59aef9b7f4a8f8629eb -> bc15e838f9d3884226cb2e9af0c78277
+  custom:scripting/monoscript/fileName/ETFXProjectileScript.cs: ad4e5185dd169c5daa1ccc4c9f735f7c -> 91e6ec5b2311ff6de4abc8636a61f0dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ETFXFireProjectile.cs: 4a8f4cc37966f793dd786ff73ce40e16 -> 848ec65e1ca5a78b8976353fa3b86db5
+  custom:scripting/monoscript/fileName/ETFXButtonScript.cs: 72e9c0fa11c1debacc9e5b71ea9f9526 -> ed5b95a3380373270aaebfcd2475e74c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParticleEffectsLibrary.cs: 412580748e6eff2b9440bcfa77c1a309 -> 3a37ad8c45f2dea0089853c8f2c9d55f
+========================================================================
+Received Import Request.
+  Time since last request: 62.925598 seconds.
+  path: Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Hearts/HeartExplosion.prefab
+  artifactKey: Guid(cc0562e923d0cf9448bba7acdb82e626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Hearts/HeartExplosion.prefab using Guid(cc0562e923d0cf9448bba7acdb82e626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178e5fdf96c2b879a242c2482307d13c') in 0.162916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Hearts/HeartTrail.prefab
+  artifactKey: Guid(faed733be55ec8345802e8121b1b1952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Hearts/HeartTrail.prefab using Guid(faed733be55ec8345802e8121b1b1952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06abb2617c242b387fffe99508b6e620') in 0.029617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Hearts/HeartPoof.prefab
+  artifactKey: Guid(836a6e787e3b11941b38b8fff2af4e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Epic Toon FX/Prefabs/Misc/Interactive/Hearts/HeartPoof.prefab using Guid(836a6e787e3b11941b38b8fff2af4e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8970ad14a6944a6acca2912cccbd4677') in 0.054787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
